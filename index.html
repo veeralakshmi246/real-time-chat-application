@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang ="en">
+<head> 
+  <meta charset ="UTF-8">
+  <title>Real time Chat application</title>
+  <link rel ="stylesheet" href ="style.css"> 
+<body>
+ <div class ="chat-wrapper">
+   <header><h1>User1</h1></header>
+   <main id ="chatBoxuse1"></main>  <form id ="chatFormuse1">
+   <input type ="text" id="usernameuse1" placeholder ="Your Name" required>
+   <input type ="text" id ="messageuse1" placeholder ="Type a message..." required>
+   <button type ="submit">Send </button>
+   </form>
+   </div>
+
+ <div class ="chat-wrapper">
+   <header><h2>User2</h2></header>
+   <main id ="chatBoxuser2"></main>  <form id ="chatFormuser2">
+   <input type ="text" id="usernameuser2" placeholder ="Your Name" required>
+   <input type ="text" id ="messageuser2" placeholder ="Type a message..." required>
+   <button type ="submit">Send</button> 
+   </form>
+  </div>
+
+   <script src ="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+   <script src ="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+   <script src ="script.js">
+   </script>
+</body>
+</html>
+
+
